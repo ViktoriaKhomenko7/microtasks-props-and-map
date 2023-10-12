@@ -13,7 +13,7 @@ type StudentsType = {
 export const NewComponent = (props: NewComponentType) => {
     return (
            <ul>
-               {props.students.map((objectFromStudentsArray, index)=>{
+               {props.students.map((objectFromStudentsArray)=>{
                    return (
                        <li key={objectFromStudentsArray.id}>
                            <span>{objectFromStudentsArray.name}</span>
